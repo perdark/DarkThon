@@ -1,3 +1,3 @@
 Sedthon :)
 
-@Dar4k - @Sedthon
+t.me/Dar4k - t.me/Sedthon
