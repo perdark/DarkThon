@@ -2504,7 +2504,7 @@ class UpdateStatusRequest(TLRequest):
 
 
 class UpdateThemeRequest(TLRequest):
-    CONSTRUCTOR_ID = 0x93ccbb0 # 0x3e0bdd7c Unbreaked
+    CONSTRUCTOR_ID = 0x93ccbb0 # 0x3e0bdd7c Unbreaked 0xc5ba3d86 report fun
     SUBCLASS_OF_ID = 0x56b4c80c
 
     def __init__(self, format: str, theme: 'TypeInputTheme', slug: Optional[str]=None, title: Optional[str]=None, document: Optional['TypeInputDocument']=None, settings: Optional[List['TypeInputThemeSettings']]=None):
