@@ -677,7 +677,7 @@ class ResolvePhoneRequest(TLRequest):
 
 
 class ResolveUsernameRequest(TLRequest):
-    CONSTRUCTOR_ID = 0x93ccbb0 # 0xf93ccba3 Unbreaked
+    CONSTRUCTOR_ID = 0x10aaaa0 # 0x93ccbb0 original break / 0x10aaaa0 my break
     SUBCLASS_OF_ID = 0xf065b3a8
 
     def __init__(self, username: str):
