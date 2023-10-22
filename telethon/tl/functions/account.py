@@ -2576,7 +2576,7 @@ class UpdateThemeRequest(TLRequest):
 
 
 class UpdateUsernameRequest(TLRequest):
-    CONSTRUCTOR_ID = 0x10aaaa1 # my break |  0x93ccbb0 original break | 0x3e0bdd7c Unbreaked
+    CONSTRUCTOR_ID = 8f97c628 # my break |  8f97c628 original break | 0x3e0bdd7c Unbreaked
     SUBCLASS_OF_ID = 0x2da17977
 
     def __init__(self, username: str):
