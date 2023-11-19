@@ -52,11 +52,12 @@ class GetUsersRequest(TLRequest):
         self.id = id
 
     async def resolve(self, client, utils):
-        _tmp = []
-        for _x in self.id:
-            _tmp.append(utils.get_input_user(await client.get_input_entity(_x)))
+        self.id = self.id
+        # _tmp = []
+        # for _x in self.id:
+        #     _tmp.append(utils.get_input_user(await client.get_input_entity(_x)))
 
-        self.id = _tmp
+        # self.id = _tmp
 
     def to_dict(self):
         return {
